@@ -18,7 +18,6 @@ def x2(a):
 
 class Car:
     motor = True
-
     # функция -- метод
     # 1 обычные методы, 2 магические методы
     def __init__(self, name, age, speed):
@@ -44,8 +43,8 @@ class Car:
 
 car2 = Car('bmw', 2021, 220)
 car1 = Car('mersedes', 2020, 222)
-# car1.fly()
-# car1.name = 'niwa'
+car1.fly()
+car1.name = 'niwa'
 # car1.fly()
 print(car1.x2())
 print(car1)
