@@ -1,8 +1,6 @@
 # 1 наследование - полное или частичное копирование\наследование всех методов и аргументов
-# 2 полиморфизм изменение поведения унаследованный методов
+# 2 полиморфизм: изменение поведения унаследованный методов
 
-
-# 3 инкапсуляция
 
 class A:  # супер класс
     def __init__(self, name, age):
@@ -26,15 +24,14 @@ class B(A):
 
 
 class C(B):
-    def __init__(self,name,age,lastname):
+    def __init__(self, name, age, lastname):
         # B.__init__(self,name,age)
-        super().__init__(name,age)
-        self.last=lastname
-
+        super().__init__(name, age)
+        self.last = lastname
 
     def num(self):
         self.age -= self.age / 2
-        print(self.age,'умножаю ')
+        print(self.age, 'умножаю ')
 
     def metod(self):
         # B.best(self)
@@ -53,6 +50,7 @@ class C(B):
 
 
 b = B('николай', 10)
-# b.best()
-c = C('Atai', 10,'Мырзаев')
-c.metod()
+b.best()
+c = C('Atai', 10, 'Мырзаев')
+c.best()
+print(C.mro())
