@@ -9,3 +9,7 @@ git push origin master/main --- загрузка вашего проекта в 
 
 git rm --cached : удаление файлов с репозитория
 git rm --cached -r : удаление папок\директорий с репозитория
+
+git clone link - скопировать репозиторий на наш проект
+
+git remote remove origin - отвязать проект от репозитория
