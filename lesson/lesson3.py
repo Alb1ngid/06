@@ -27,6 +27,7 @@ class Bank:
 
 
 beka = Bank('beka', 19, 'qw23rgf4d3w1', 'a')
+
 # print(beka)
 # beka.x()
 beka._a = '111111111111'
