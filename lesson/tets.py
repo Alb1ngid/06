@@ -6,6 +6,7 @@ class B(A):
     def info(self):
         super().info()
 
+
 class C(B):
     def Info(self):
         print('это С')
