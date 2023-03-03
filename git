@@ -20,3 +20,5 @@ git checkout name: переходить на ветку name
 git checkout -b:создать и переидти на эту ветку
 git merge name:слиться с одной веткой
 
+
+git branch -d name

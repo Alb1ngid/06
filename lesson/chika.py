@@ -1,1 +1,3 @@
+import colorama
+
 print('поработал')

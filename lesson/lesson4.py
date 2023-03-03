@@ -1,5 +1,6 @@
 # множественное наследование
 # mro-metod resolution order,порядок выполнения методов
+
 class A:
     def __init__(self, name):
         self.name = name
@@ -66,3 +67,6 @@ class In(BA, RE): ...
 
 
 class Asset(BA, RE, CA): ...
+
+
+print(Asset.mro())
