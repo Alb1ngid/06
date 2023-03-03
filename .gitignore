@@ -2,3 +2,5 @@ main.py
 venv
 .idea
 __pycache__/
+musor.py
+env
