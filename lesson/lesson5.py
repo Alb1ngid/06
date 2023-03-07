@@ -38,3 +38,14 @@ print('синий')
 print(colorama.Fore.RED)
 print('красный')
 print('trfygvbh')
+
+
+
+
+
+
+
+
+import lesson2
+
+from lesson2 import C as Class_C
